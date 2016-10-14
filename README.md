@@ -1,7 +1,7 @@
-xiaoego.com 网站
+xeg.com 网站
 ===============================
 
-该项目包含xiaoego.com主要源码，使用Yii2开发。
+xeg.com主要源码，使用Yii2开发。
 
 若您想学习Yii2请至http://www.yiiframework.com/doc-2.0/guide-index.html
 
@@ -10,9 +10,9 @@ xiaoego.com 网站
 
 ```
 # clone the project
-git clone https://github.com/daixianceng/xiaoego.com.git
+git clone git@github.com:liminghuid/yii2_xeg.git
 
-cd xiaoego.com
+cd yii2_xeg
 
 # install the composer asset plugin globally, if you haven't done so before
 composer global require "fxp/composer-asset-plugin:~1.1.1"
@@ -28,23 +28,23 @@ composer install
 ----------
 建议按照以下方式配置virtual host：
 
-* `xiaoego.local`         => `xiaoego.com/frontend/web`
-* `backend.xiaoego.local` => `xiaoego.com/backend/web`
-* `store.xiaoego.local`   => `xiaoego.com/store/web`
-* `m.xiaoego.local`       => `xiaoego.com/m/web`
-* `image.xiaoego.local`   => `xiaoego.com/image`
+* `xiaoego.local.com`         => `yii2_xeg/frontend/web`
+* `backend.xiaoego.local.com` => `yii2_xeg/backend/web`
+* `store.xiaoego.local.com`   => `yii2_xeg/store/web`
+* `m.xiaoego.local.com`       => `yii2_xeg/m/web`
+* `image.xiaoego.local.com`   => `yii2_xeg/image`
 
 数据库
 ----------
-该项目使用Mysql数据库开发，数据库文件：`xiaoego.com/common/data/db/db.sql`
+该项目使用Mysql数据库开发，数据库文件：`yii2_xeg/common/data/db/db.sql`
 
 项目配置
 ----------
 配置文件在每个模块的`config/`目录下，这并不是全部：
 
-* `xiaoego.com/m/web/index.php`：移动端入口脚本，内有微信公众号`AppId`和`appSecret`配置；
-* `xiaoego.com/vendor/payment/wxpay/lib/WxPay.Config.php`：微信支付配置文件；
-* `xiaoego.com/vendor/payment/alipay/alipay.config.php`：支付宝配置文件。
+* `yii2_xeg/m/web/index.php`：移动端入口脚本，内有微信公众号`AppId`和`appSecret`配置；
+* `yii2_xeg/vendor/payment/wxpay/lib/WxPay.Config.php`：微信支付配置文件；
+* `yii2_xeg/vendor/payment/alipay/alipay.config.php`：支付宝配置文件。
 
 信息
 ----------
@@ -113,7 +113,7 @@ tests                    contains various tests for the advanced application
 
 二次开发
 ----------
-请联系 `424464282@qq.com`
+请联系 `@qq.com`
 
 技术链接
 ----------
